@@ -20,8 +20,14 @@ const palindromeOrNot = (n) => {
     }
 
     if(reverseNum === dup) return true;
-    
+
     else return false;
 };
 console.log(palindromeOrNot(234)); // Output: false
 console.log(palindromeOrNot(121)); // Output: true
+
+
+/*
+    Time Complexity: O(log10(n))
+    Space Complexity: O(1)
+*/
