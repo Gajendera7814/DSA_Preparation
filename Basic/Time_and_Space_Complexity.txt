@@ -70,10 +70,26 @@ Key Points:
 
 
 
-
-
-
-
 Space complexity - Space complexity is a function that describes how much memory (space) an algorithm requires to the 
 quantity of input to the method.
 
+
+Space complexity: Space complexity refers to the amount of memory an algorithm requires to execute, including:
+
+    1. Fixed part: Memory needed for constants, variables, and program instructions.
+
+    2. Variable part: Memory used by dynamically allocated structures like arrays, lists, stacks, recursion stack, etc.
+    
+    Space complexity evaluates the efficiency of an algorithm concerning memory usage. It's expressed in terms of the 
+    size of the input (n).
+
+
+    Space complexity can be expressed as the sum of Auxiliary Space and Input Space:
+
+    - Auxiliary Space: The additional space used by the algorithm to solve the problem.
+    - Input Space: The memory required to store the input data.
+
+    In symbolic terms:  
+    Total Space Complexity (C) = Auxiliary Space (A) + Input Space (B) 
+
+    Here, (C) represents the total space complexity, (A) is the auxiliary space, and (B) is the input space.
