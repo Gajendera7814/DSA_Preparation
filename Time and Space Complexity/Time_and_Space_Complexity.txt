@@ -1,0 +1,95 @@
+
+Time and Space Complexity
+<------------------------>
+
+Time complexity - Time complexity is a function that describes how long an algorithm takes in terms of the quantity 
+of input it receives. 
+
+OR 
+
+- Time complexity is a concept in computer science used to describe the efficiency of an algorithm in terms of how the 
+  time it takes to execute depends on the size of the input data.
+
+Key Points:
+    1. Input Size (n): This refers to the amount of data the algorithm processes. It could be the number of elements 
+       in an array, the size of a matrix, or the number of nodes in a graph.
+
+    2. Growth Rate: Time complexity focuses on how the execution time changes as the input size grows. It is expressed 
+       as a function (T(n)), where (n) is the input size.
+
+    3. Big-O Notation:
+        - This is the standard way to express time complexity. 
+        - It describes the worst-case scenario of an algorithm's execution time.
+        - Common examples:
+            - O(1): Constant time – the time taken is the same regardless of input size.
+            - O(log n): Logarithmic time – the time grows slowly as the input size increases.
+            - O(n): Linear time – time grows proportionally with the input size.
+            - O(n^2): Quadratic time – time grows proportionally to the square of the input size.
+
+    4. Purpose: Understanding time complexity helps compare algorithms and choose the most efficient one for a specific 
+       task, particularly for large inputs.
+
+    In essence, time complexity provides a mathematical way to evaluate and predict an algorithm's performance.
+
+
+    E.g -
+
+        for(let i = 0; i <= 5; i++){
+            console.log("hello", i);
+        }
+    
+        Time Complexity Analysis:
+
+            1. Initialization (let i = 0): This happens once before the loop starts. The initialization itself doesn't 
+            contribute much to the overall time complexity.
+
+            2. Condition (i <= 5): The loop checks this condition on each iteration, ensuring that the loop runs while 
+            i is less than or equal to 5. This check is performed 6 times (i.e., when i = 0, 1, 2, 3, 4, and 5).
+
+            3. Update (i++): After each iteration, the loop increments i by 1. This update operation is done 5 times 
+            (from i = 0 to i = 5).
+
+            4. Body (console.log("hello", i)): The body of the loop runs once for each iteration. In this case, the 
+            body prints "hello" along with the current value of i, so it executes 6 times (for each value of i from 0 to 5).
+
+        Time Complexity:
+
+            - The loop runs 6 times in total (for i = 0, 1, 2, 3, 4, 5).
+            - Since the time taken for each iteration is constant (printing to the console, which takes O(1) time), 
+              the total time complexity is proportional to the number of iterations.
+
+        Thus, the time complexity is: O(n), where n is the number of iterations, which is 6 in this case. However, 
+        since the number of iterations is constant (6), this is effectively O(1) in this particular example, because 
+        the input size does not change dynamically.
+
+        In general, for a loop that iterates a fixed number of times, the time complexity is considered O(n), where n 
+        represents the number of times the loop runs (in this case, it’s a constant number of iterations).
+
+
+
+
+
+
+Space complexity - Space complexity is a function that describes how much memory (space) an algorithm requires to the 
+quantity of input to the method.
+
+
+Space complexity: Space complexity refers to the amount of memory an algorithm requires to execute, including:
+
+    1. Fixed part: Memory needed for constants, variables, and program instructions.
+
+    2. Variable part: Memory used by dynamically allocated structures like arrays, lists, stacks, recursion stack, etc.
+    
+    Space complexity evaluates the efficiency of an algorithm concerning memory usage. It's expressed in terms of the 
+    size of the input (n).
+
+
+    Space complexity can be expressed as the sum of Auxiliary Space and Input Space:
+
+    - Auxiliary Space: The additional space used by the algorithm to solve the problem.
+    - Input Space: The memory required to store the input data.
+
+    In symbolic terms:  
+    Total Space Complexity (C) = Auxiliary Space (A) + Input Space (B) 
+
+    Here, (C) represents the total space complexity, (A) is the auxiliary space, and (B) is the input space.
