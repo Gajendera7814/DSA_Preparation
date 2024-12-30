@@ -89,11 +89,9 @@ const GCDs = (n1, n2) => {
         }
     }
 
-    if ( n1 == 0) {
-        return n2;
-    } else {
-        return n1;
-    }
+    if ( n1 == 0) return n2; 
+    
+    else return n1;
 };
 
 console.log(GCDs(12, 16)); // Output: 4
