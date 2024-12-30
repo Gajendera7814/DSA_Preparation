@@ -25,7 +25,7 @@ console.log(printDivisors(36));
 
 
 
-/*<------------------------------------ Optimized Approach (Using Square Root) -------------------------------------->*/
+/*<------------------------------------ Optimized Approach (Using Square Root) ------------------------------------->*/
 
 const printDivisorsOptimized = (n) => {
     for (let i = 1; i <= Math.sqrt(n); i++) {
