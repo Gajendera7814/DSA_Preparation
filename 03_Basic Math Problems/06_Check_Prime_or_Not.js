@@ -30,7 +30,7 @@ console.log(primeNumber(16)); // Output:- "Not Prime Number"
 */
 
 
-/*<------------------------------------ Optimized Approach (Using Square Root) -------------------------------------->*/
+/*<------------------------------------ Optimized Approach (Using Square Root) ------------------------------------->*/
 
 const primeNumberOptimized = (n) => {
     if (n <= 1) return "Not Prime Number";
