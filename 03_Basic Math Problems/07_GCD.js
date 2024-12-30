@@ -26,10 +26,7 @@ console.log(GCD(9, 12)); // Output: 3
 console.log(GCD(11, 13)); // Output: 1
 
 /*
-    Time Complexity: O(Math.min(n1, n2))
-
-        𝑂(𝑘) where 𝑘 = min(n1, n2)
-    ⁡
+    Time Complexity: O(Math.min(n1, n2)),  𝑂(𝑘) where 𝑘 = min(n1, n2)
     Space Complexity: O(1)
 */
 
@@ -49,10 +46,7 @@ console.log(GreatestCommonDivisior(19, 13)); // Output: 1
 
 
 /*
-    Time Complexity: O(Math.min(n1, n2))
-
-        𝑂(𝑘) where 𝑘 = min(n1, n2)
-    ⁡
+    Time Complexity: O(Math.min(n1, n2)),  𝑂(𝑘) where 𝑘 = min(n1, n2)
     Space Complexity: O(1)
 */
 
