@@ -29,3 +29,8 @@ const armstrongNumber = (n) => {
     }
 };
 console.log(armstrongNumber(1634));
+
+/*
+    Time Complexity: O(log10(n))
+    Space Complexity: O(log10(n))
+*/
