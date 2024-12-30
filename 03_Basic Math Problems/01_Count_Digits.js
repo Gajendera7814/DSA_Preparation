@@ -32,10 +32,10 @@ console.log(countDigits(15678)); // Output: 5
     The loop will run approximately logarithmically with respect to the number n. Specifically, the number of iterations 
     is proportional to the number of digits in n, which is 
 
-    Thus, the time complexity is: O(log10(n))
+    Thus, the time complexity is :- O(log10(n))
 */
 
 /*
-    Time Complexity: O(log10(n))
-    Space Complexity: O(1)
+    Time Complexity : O(log10(n))
+    Space Complexity : O(1)
 */
