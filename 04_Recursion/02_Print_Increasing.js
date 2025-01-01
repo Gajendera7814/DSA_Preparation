@@ -23,7 +23,7 @@ PI(4);
     Initial State -
     +----------------------+
     | Step 6:              |
-    |    if(n <= 0);       |<- Current (Base case)
+    |    if(n <= 0);       | <- Current (Base case)
     |    return;           |
     +----------------------+
     | Step 5:              |
@@ -50,13 +50,13 @@ PI(4);
     Final State -
     +----------------------+
     | Step 6:              |
-    |    if(n <= 0);       |  --> Base case reached, return and remove from the call stack.
+    |    if(n <= 0);       | --> Base case reached, return and remove from the call stack.
     |    return;           |
     +----------------------+
     | Step 5:              |
     |    n = 1;            |
     |    PI(0);            |
-    |    console.log(1);   |  --> Print 1 (then remove it from the call stack)
+    |    console.log(1);   | --> Print 1 (then remove it from the call stack)
     +----------------------+
     | Step 4:              |
     |    n = 2;            |
@@ -98,6 +98,76 @@ PDI(4);
     bye 3
     bye 4
 */
+
+/*
+    Call Stack -
+
+    Initial State -
+    +---------------------------------+
+    | Step 6:                         |
+    |    if(n <= 0);                  | --> Base case reached, return and remove from the call stack.
+    |    return;                      |
+    +---------------------------------+
+    | Step 5:                         |
+    |    n = 1;                       |
+    |    console.log("hello " + n);   | --> Print hello 1
+    |    PDI(0);                      |
+    +---------------------------------+
+    | Step 4:                         |
+    |    n = 2;                       |
+    |    console.log("hello " + n);   | --> Print hello 2
+    |    PDI(1);                      |
+    +---------------------------------+
+    | Step 3:                         |
+    |    n = 3;                       |
+    |    console.log("hello " + n);   | --> Print hello 3
+    |    PDI(2);                      |
+    +---------------------------------+
+    | Step 2:                         |
+    |    n = 4;                       |
+    |    console.log("hello " + n);   | --> Print hello 4
+    |    PDI(3);                      |
+    +---------------------------------+
+    | Step 1: PDI(4)                  | Initial function call frame.
+    +---------------------------------+
+
+
+
+    Final State -
+    +---------------------------------+
+    | Step 6:                         |
+    |    if(n <= 0);                  | <- Current (Base case)
+    |    return;                      |
+    +---------------------------------+
+    | Step 5:                         |
+    |    n = 1;                       |
+    |    console.log("hello " + n);   |
+    |    PDI(0);                      |
+    |    console.log("bye " + n);     | --> Print bye 1 (then remove it from the call stack)
+    +---------------------------------+
+    | Step 4:                         |
+    |    n = 2;                       |
+    |    console.log("hello " + n);   |
+    |    PDI(1);                      |
+    |    console.log("bye " + n);     | --> Print bye 2 (then remove it from the call stack)
+    +---------------------------------+
+    | Step 3:                         |
+    |    n = 3;                       |
+    |    console.log("hello " + n);   |
+    |    PDI(2);                      |
+    |    console.log("bye " + n);     | --> Print bye 3 (then remove it from the call stack)
+    +---------------------------------+
+    | Step 2:                         |
+    |    n = 4;                       |
+    |    console.log("hello " + n);   |
+    |    PDI(3);                      |
+    |    console.log("bye " + n);     | --> Print bye 4 (then remove it from the call stack)
+    +---------------------------------+
+    | Step 1: PDI(4)                  | Initial function call frame.
+    +---------------------------------+
+
+*/
+
 
 /*
     Time Complexity:
