@@ -22,34 +22,65 @@ const PD = (n) => {
 PD(4);
 
 /*
+    Output -
+    4
+    3
+    2
+    1
+*/
+
+/*
     Call Stack -
 
+    Initial State -
     +----------------------+
-    |    Step 6:           |
-    |    if(n <= 0);       |<- Current (Base case)
+    | Step 6:              |
+    |    if(n <= 0);       |  --> Current (Base case)
     |    return;           |
     +----------------------+
-    |    Step 5:           |
+    | Step 5:              |
     |    n = 1;            |
     |    console.log(1);   |
     |    PD(0);            |
     +----------------------+
-    |    Step 4:           |
+    | Step 4:              |
     |    n = 2;            |
     |    console.log(2);   |
     |    PD(1);            |
     +----------------------+
-    |    Step 3:           |
+    | Step 3:              |
     |    n = 3;            |
     |    console.log(3);   |
     |    PD(2);            |
     +----------------------+
-    |    Step 2:           |
+    | Step 2:              |
     |    n = 4;            |
     |    console.log(4);   |
     |    PD(3);            |
     +----------------------+
-    |   Step 1: PD(4)      |
+    | Step 1: PD(4)        |  --> Initial function call frame.
     +----------------------+
 
+*/
+
+/*
+    Time Complexity:
+        1. The function PD(n) calls itself recursively with a decremented value of n until n becomes less than or equal to 0.
+        2. Each recursive call involves:
+        - A constant time operation console.log(n) --> (O(1)).
+        - A recursive call, which decreases n by 1.
+
+        Thus, the function will make n recursive calls before reaching the base case. Therefore, 
+        
+    The time complexity is O(n) because the function makes one call for each integer from n down to 1.
+
+    Space Complexity:
+        1. The space complexity is determined by the call stack during the recursive calls.
+        2. Each recursive call adds a new frame to the call stack.
+        3. Since the recursion depth is n, the space complexity is O(n) because the maximum depth of the call stack will be n
+        before it starts returning.
+
+
+    Time Complexity: O(n)
+    Space Complexity: O(n)
 */
