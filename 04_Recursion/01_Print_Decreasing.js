@@ -9,6 +9,13 @@
     2. Break it down into a smaller problem.
     3. Perform a task in such a way that the result of the smaller problem contributes to solving the larger problem 
     (self-contained work).
+
+    Important Key Points -
+    
+    - When there is 1 recursive call, a linear stack is formed, building up from the bottom to the top, and then it is removed 
+      in a linear fashion from top to bottom (LIFO).
+    
+    - when 2 or more recursive calls occur, the structure forms like a tree, with each recursive call branching out into further calls.
 */
 
 /*<--------------------------------------------- Print Decreasing -------------------------------------------------------------->*/
