@@ -15,7 +15,8 @@
     - When there is 1 recursive call, a linear stack is formed, building up from the bottom to the top, and then it is removed 
       in a linear fashion from top to bottom (LIFO).
     
-    - when 2 or more recursive calls occur, the structure forms like a tree, with each recursive call branching out into further calls.
+    - when 2 or more recursive calls occur, the structure forms like a tree (also known as Recursion Tree), with each recursive 
+      call branching out into further calls.
 */
 
 /*<--------------------------------------------- Print Decreasing -------------------------------------------------------------->*/
