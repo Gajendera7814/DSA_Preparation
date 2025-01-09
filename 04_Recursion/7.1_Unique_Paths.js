@@ -24,26 +24,27 @@
     3. Down -> Right -> Down
 */
 
-const uniquePaths = (currentRow, currentCol, endRow, endCol, ans = "") => {
-    /* Base case: If the current position matches the target position, print the path and return. */
+const countMazePaths = (currentRow, currentCol, endRow, endCol) => {
+    /* Base case: If the current position matches the target position, return 1 (valid path). */
     if (currentRow === endRow && currentCol === endCol) {
-        console.log(ans);
-        return;
+        return 1;
     }
 
     /* Boundary condition: Stop further exploration if the current position exceeds the target bounds. */
-    if (currentRow > endRow || currentCol > endCol) return;
+    if (currentRow > endRow || currentCol > endCol) {
+        return 0;
+    }
 
-    /* Recursive case: Explore the possible moves: */
-    
-    /* Horizontal move: Move one step to the right.*/
-    uniquePaths(currentRow, currentCol + 1, endRow, endCol, ans + "H");
+    /* Recursive case: Count paths from Horizontal and Vertical moves. */
+    const horizontalPaths = countMazePaths(currentRow, currentCol + 1, endRow, endCol);
+    const verticalPaths = countMazePaths(currentRow + 1, currentCol, endRow, endCol);
 
-    /* Vertical move: Move one step down.*/
-    uniquePaths(currentRow + 1, currentCol, endRow, endCol, ans + "V");
+    return horizontalPaths + verticalPaths;
 };
 const m = 3, n = 2;
-uniquePaths(0, 0, m - 1, n - 1);
+const totalPaths = countMazePaths(0, 0, m - 1, n - 1);
+console.log(totalPaths); // Output: 3
+
 
 
 /*
