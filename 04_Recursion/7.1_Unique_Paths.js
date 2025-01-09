@@ -44,3 +44,16 @@ const uniquePaths = (currentRow, currentCol, endRow, endCol, ans = "") => {
 };
 const m = 3, n = 2;
 uniquePaths(0, 0, m - 1, n - 1);
+
+
+/*
+    Time and Space Complexity
+    <----------------------->
+
+    Time Complexity:  
+    
+    - With only Horizontal and Vertical moves, there are C(m + n - 2, m - 1) combinations (where C is the binomial coefficient).
+      Calculating the recursion leads to an exponential time complexity of approximately O(2^{m + n}).  
+   
+    Space Complexity: The recursive call stack grows up to O(m + n).
+*/
