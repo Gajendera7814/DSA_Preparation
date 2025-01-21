@@ -12,3 +12,16 @@ Sorting Techniques
   3. Insertion Sort  
   4. Merge Sort  
   5. Quick Sort  
+
+Recursion Problems -
+  1. Print Increasing
+  2. Print Decreasing
+  3. Tower Of Hanoi
+  4. Coin Toss
+  5. Climbing Stairs
+  6. Permutations
+  7. Maze Path
+  8. Generate Valid Parentheses
+  9. Letter Combinations
+  10. Palindrome Partitioning
+      
