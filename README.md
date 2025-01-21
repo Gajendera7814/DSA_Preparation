@@ -1,7 +1,6 @@
 # DSA_Preparation
 
 Topics
-<----->
   1. Understanding Time and Space Complexity  
   2. Pattern-based and basic math problems  
   3. Recursion
@@ -9,7 +8,6 @@ Topics
 
 
 Basic Math Problems
-<------------------>
   1. Count Digits
   2. Reverse a number
   3. Check Palindrome or not
@@ -19,7 +17,6 @@ Basic Math Problems
   7. GCD
 
 Recursion Problems
-<------------------>
   1. Print Increasing
   2. Print Decreasing
   3. Tower Of Hanoi
