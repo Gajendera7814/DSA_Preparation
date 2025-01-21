@@ -1,19 +1,25 @@
 # DSA_Preparation
 
-Basic Concepts
-  1. Fundamental Mathematics  
-  2. Understanding Time and Space Complexity  
-  3. Pattern-Based Problem Solving  
-  4. Introduction to Recursion  
+Topics
+<----->
+  1. Understanding Time and Space Complexity  
+  2. Pattern-based and basic math problems  
+  3. Recursion
+  4. Backtracking
 
-Sorting Techniques
-  1. Bubble Sort  
-  2. Selection Sort  
-  3. Insertion Sort  
-  4. Merge Sort  
-  5. Quick Sort  
 
-Recursion Problems -
+Basic Math Problems
+<------------------>
+  1. Count Digits
+  2. Reverse a number
+  3. Check Palindrome or not
+  4. Armstrong number
+  5. Print all divisors
+  6. Check Prime or not
+  7. GCD
+
+Recursion Problems
+<------------------>
   1. Print Increasing
   2. Print Decreasing
   3. Tower Of Hanoi
