@@ -22,6 +22,9 @@
 /* Use a boolean value to indicate whether a recursive call includes the current element (true) or excludes it (false). */
 
 const subsetsWithDup = (arr, vIds = 0, ans = [], flag = true) => {
+    /* Sort the array initially to handle duplicates efficiently. */
+    if (vIds === 0) arr.sort((a, b) => a - b);
+        
     /* Base case: if vIds reaches the length of the array */
     if (vIds === arr.length) {
         console.log(ans);
@@ -57,6 +60,9 @@ subsetsWithDup([1, 2, 2]);
 /*<--------------------------------------------------------------------------------------------------------------->*/
 
 const subsetsWithDups = (arr, vIds = 0, ans = [], flag = true, result = []) => {
+    /* Sort the array initially to handle duplicates efficiently. */
+    if (vIds === 0) arr.sort((a, b) => a - b);
+
     /* Base case: if vIds reaches the length of the array, add the current subset to the result. */
     if (vIds === arr.length) {
         result.push([...ans]); /* Add a copy of the current subset. */
