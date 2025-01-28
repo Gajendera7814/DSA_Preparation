@@ -19,13 +19,32 @@ Basic Math Problems
 Recursion Problems
   1. Print Increasing
   2. Print Decreasing
-  3. Tower Of Hanoi
-  4. Coin Toss
-  5. Climbing Stairs
-  6. Permutations
-  7. Maze Path
-  8. Generate Valid Parentheses
-  9. Letter Combinations
-  10. Palindrome Partitioning
-  11. Generate All Subsets of a String
+  3. Factorial of a Number
+  4. Sum of N Natural Numbers
+  5. Fibonacci Sequence
+  6. Power Calculation
+  7. Reverse a String
+  8. Decimal to binary number
+  9. Tower Of Hanoi
+  10. Coin Toss
+  11. Climbing Stairs
+  12. Permutations
+  13. Maze Path
+  14. Generate Valid Parentheses
+  15. Letter Combinations
+  16. Palindrome Partitioning
+  17. Generate All Subsets of a String
+
+Backtracking Problems
+  1. Blocked Maze
+  2. Word Search
+  3. Subsets (for unique elements)
+  4. Subsets II (for containing duplicates)
+
+Sorting Algorithms
+  1. Bubble Sort
+  2. Selection Sort
+  3. Insertion Sort
+  4. Merge Sort
+  5. Quick Sort
       
