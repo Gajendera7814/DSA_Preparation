@@ -9,7 +9,7 @@
 6. 📊 Arrays
 
 
-🔢 Basic Math Problems
+## 🔢 Basic Math Problems
 - 🧮 Count Digits 
 - 🔄 Reverse a Number  
 - 🔍 Check if Palindrome  
@@ -18,7 +18,7 @@
 - 🔗 Check Prime  
 - 🤝 GCD (Greatest Common Divisor)**  
 
-🔄 Recursion Problems
+## 🔄 Recursion Problems
 1. 📈 Print Increasing  
 2. 📉 Print Decreasing  
 3. ✖️ Factorial of a Number  
@@ -38,7 +38,7 @@
 17. 📂 Generate All Subsets of a String  
 
 
-🎯 Backtracking Problems
+## 🎯 Backtracking Problems
 1. 🧱 Blocked Maze  
 2. 🔠 Word Search  
 3. 📂 Subsets (Unique Elements)  
