@@ -1,6 +1,6 @@
 /*
-    Remove Duplicates in place from Sorted Array
-    <------------------------------------------->
+    Remove Duplicates in place from Sorted Array    Leetcode Problem
+    <------------------------------------------->   <--------------->
 
     We need to remove duplicates from a sorted array in place (without using extra space) and return the new 
     length of the modified array. The relative order of unique elements must be maintained.
