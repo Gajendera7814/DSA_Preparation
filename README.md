@@ -10,13 +10,13 @@
 
 
 ## 🔢 Basic Math Problems
-- 🧮 Count Digits 
-- 🔄 Reverse a Number  
-- 🔍 Check if Palindrome  
-- 💎 Armstrong Number  
-- 📋 Print All Divisors  
-- 🔗 Check Prime  
-- 🤝 GCD (Greatest Common Divisor)**  
+1. 🧮 Count Digits 
+2. 🔄 Reverse a Number  
+3. 🔍 Check if Palindrome  
+4. 💎 Armstrong Number  
+5. 📋 Print All Divisors  
+6. 🔗 Check Prime  
+7. 🤝 GCD (Greatest Common Divisor)**  
 
 ## 🔄 Recursion Problems
 1. 📈 Print Increasing  
@@ -46,9 +46,16 @@
 
 
 ## ⚙️ Sorting Algorithms
-- 🫧 Bubble Sort  
-- 🎯 Selection Sort  
-- 🛠️ Insertion Sort  
-- 🧩 Merge Sort  
-- ⚡ Quick Sort  
+1. 🫧 Bubble Sort  
+2. 🎯 Selection Sort  
+3. 🛠️ Insertion Sort  
+4. 🧩 Merge Sort  
+5. ⚡ Quick Sort  
+
+## 📊 Array Problems
+1. 🏆 Find the Largest Element from an Array
+2. 🥇 Find the Second Largest Element from an Array
+3. 🔍 Check if an Array is Sorted or Not
+4. 📂 Remove Duplicates In Place from a Sorted Array
+5. 🔄 Left Rotate the Array by One
 
