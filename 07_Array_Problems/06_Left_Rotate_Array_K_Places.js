@@ -35,7 +35,7 @@
             0  1  2
     Temp = [1, 2, 3]
 
-    Index ----> Index - K
+    Index ----> i - k
       3   ---->   0
       4   ---->   1
       5   ---->   2
@@ -141,7 +141,7 @@ const reverse = (arr, start, end) => {
 const leftRotate = (arr, k) => {
     let n = arr.length;
 
-    /* Base condition */
+    /* Edge case where no rotation is needed */
     if (n === 0) return arr;
 
     k = k % n;
