@@ -58,4 +58,10 @@
 3. 🔍 Check if an Array is Sorted or Not
 4. 📂 Remove Duplicates In Place from a Sorted Array
 5. 🔄 Left Rotate the Array by One
+6. ➡ Left Rotate an Array by K Places
+7. ⬅ Right Rotate an Array by K Places
+8. 🛠 Move all Zeros to the End of the Array
+9. ➖ Linear Search
+10. ➕ Union of Two Sorted Arrays with Duplicates
+11. ⛓ Intersection of Two Arrays
 
