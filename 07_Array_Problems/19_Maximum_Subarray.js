@@ -145,7 +145,7 @@ const maxSubArrayKadane = (arr) => {
     
     return maxSum;
 }
-console.log(maxSubArrayKadane([-2, -3, 4, -1, -2, 1, 5, -3])); // Output: 7
+console.log(maxSubArrayKadane([5, 4, -1, 7, 8])); // Output: 23
 
 /*
     Time Complexity: O(n)
