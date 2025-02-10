@@ -64,4 +64,13 @@
 9. ➖ Linear Search
 10. ➕ Union of Two Sorted Arrays with Duplicates
 11. ⛓ Intersection of Two Arrays
+12. 🔗 Intersection of Two Arrays II
+13. ❓ Missing Number
+14. 🔢 Max Consecutive Ones
+15. 🔄 Find the number that appears once, and the other numbers twice
+16. ✖ Find the XOR of Numbers Which Appear Twice
+17. 📏 Longest Subarray with Given Sum K (Positives)
+18. 💲 Two Sum
+19. 📈 Maximum Subarray
+20. 🎯 Sort an Array of 0s, 1s, and 2s
 
