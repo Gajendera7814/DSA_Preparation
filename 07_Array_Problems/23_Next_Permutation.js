@@ -98,8 +98,6 @@
     |   3    |    Reverse right part [3, 1] --→ [1, 3]                | [2, 1, 3]  |
 
     Final Output: [2, 1, 3]
-
-
 */
 
 const nextPermutation = (arr) => {
