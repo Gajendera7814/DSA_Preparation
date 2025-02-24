@@ -4,7 +4,7 @@
 
     Given a matrix, your task is to rotate the matrix 90 degrees clockwise.
 
-    Example 1:
+    Example 1-
 
         Input:
         [
