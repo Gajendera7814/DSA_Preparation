@@ -119,3 +119,41 @@ console.log(rotateMatrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]])); // Output: [[7, 4,
     Time Complexity: O(n2)
     Space Complexity: O(n2)
 */
+
+
+
+
+/*<------------------------------------------------ Optimal Approach ------------------------------------------------>*/
+
+const rotateMatrixBy90Degree = (matrix) => {
+    const n = matrix.length;
+
+    for(let i = 0; i < n - 1; i++) {
+        for(let j = i + 1; j < n; j++) {
+            [matrix[i][j], matrix[j][i]] = [matrix[j][i], matrix[i][j]];
+        }
+    }
+ 
+    for(let i = 0; i < n; i++) {
+        matrix[i].reverse();
+    }
+    
+    return matrix;
+};
+console.log(rotateMatrixBy90Degree([[5, 1, 9, 11], [2, 4, 8, 10], [13, 3, 6, 7], [15, 14, 12, 16]]));
+
+/* Output: [[15, 13, 2, 5], [14, 3, 4, 1], [12, 6, 8, 9], [16, 7, 10, 11]] */
+
+
+/*
+    Time Complexity -
+
+        The function consists of two steps:
+            - Transpose the matrix: The nested loop runs O(n²).
+            - Reverse each row: Each row of size n is reversed, taking O(n) per row. Since there are n rows, 
+              the overall complexity is O(n²).
+        
+        Thus, the total time complexity is: O(n2) + O(n2) = O(n2)
+
+    Space Complexity: O(1)
+*/
