@@ -6,7 +6,7 @@
     if they are not in the desired order.
 
 
-    Input: nums = [29, 10, 56, 14, 37] ----->>>>>  Output: [10, 14, 29, 37, 56]
+    Input: nums = [29, 10, 56, 14, 37] ---->>>>>  Output: [10, 14, 29, 37, 56]
 
     Number of rounds = Total length - 1
 
