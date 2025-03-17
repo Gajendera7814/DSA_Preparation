@@ -92,7 +92,7 @@
  2. 🔄 Rotate the Matrix OR Image by 90 Degrees
 
 
-## 🔤 Strings
+## 🔤 String Problems
   1. 🔡 Character Frequency Counter
   2. 🔠 Sort an Object by its Keys
   3. 🔀 Merge Strings Alternately
