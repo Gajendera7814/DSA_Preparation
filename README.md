@@ -87,12 +87,12 @@
  27. 🔢 Count Subarray Sum Equals K
 
 
-** 🏢 Matrix Problems
+## 🏢 Matrix Problems
  1. 🟦 Set Matrix Zeroes
  2. 🔄 Rotate the Matrix OR Image by 90 Degrees
 
 
-** 🔤 Strings
+## 🔤 Strings
   1. 🔡 Character Frequency Counter
   2. 🔠 Sort an Object by its Keys
   3. 🔀 Merge Strings Alternately
