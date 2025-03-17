@@ -1,6 +1,6 @@
 /*
     what is Binary Search ?
-    <======================>
+    <---------------------->
 
     Binary search is a search algorithm that efficiently finds the position of a target value within a sorted array. 
     
