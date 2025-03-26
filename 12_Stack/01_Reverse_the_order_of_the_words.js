@@ -4,6 +4,11 @@
     A stack is a Last In, First Out (LIFO) data structure, meaning the last element added is the first to be removed.
     In JavaScript, stacks are often implemented using arrays because they provide built-in methods like push() and pop() 
     to easily manipulate data.
+
+
+    How do we identify where we use stack?
+
+    If j depends on i, then a stack can be a suitable choice.
 */
 
 /*
